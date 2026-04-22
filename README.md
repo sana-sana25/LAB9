@@ -3,7 +3,6 @@
 ![Android](https://img.shields.io/badge/Android-Studio-3DDC84?style=for-the-badge&logo=android&logoColor=white)
 ![PHP](https://img.shields.io/badge/PHP-8.0-777BB4?style=for-the-badge&logo=php&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-XAMPP-F29111?style=for-the-badge&logo=mysql&logoColor=white)
-![Volley](https://img.shields.io/badge/Volley-1.2.1-4285F4?style=for-the-badge&logo=google&logoColor=white)
 ![Gson](https://img.shields.io/badge/Gson-2.10.1-FF6F00?style=for-the-badge&logo=google&logoColor=white)
 
 > Application Android de gestion des étudiants connectée à un Web Service PHP/MySQL via Volley et Gson.
@@ -12,14 +11,10 @@
 
 ## 🎬 Démonstration Vidéo
 
-> 📹 **[Cliquez ici pour voir la démonstration complète](#)** *(remplacez ce lien par votre lien YouTube/Google Drive)*
+> 📹 **[Cliquez ici pour voir la démonstration complète](#)**
 
-Ou regardez le GIF ci-dessous :
+https://github.com/user-attachments/assets/841d4656-5b9a-4fff-9f86-96fd2a70dedb
 
-```
-[Insérez ici un GIF de démonstration de l'application]
-Outil recommandé : ScreenToGif (Windows) ou Recordit (Mac)
-```
 
 ---
 
@@ -96,7 +91,7 @@ app/
 ### Étape 1 — Prérequis
 - [XAMPP](https://www.apachefriends.org/) installé et démarré (Apache + MySQL)
 - [Android Studio](https://developer.android.com/studio) installé
-- Émulateur Android configuré (API 26+)
+- Émulateur Android configuré
 
 ### Étape 2 — Base de données
 Ouvrez [http://localhost/phpmyadmin](http://localhost/phpmyadmin) et exécutez :
@@ -144,8 +139,8 @@ dependencies {
 
 | Environnement | URL à utiliser |
 |---|---|
-| Émulateur Android | `http://10.0.2.2/projetws/ws/` |
-| Vrai téléphone (WiFi) | `http://192.168.X.X/projetws/ws/` |
+| Émulateur Android | `http://10.0.2.2/projet/ws/` |
+| Vrai téléphone (WiFi) | `http://192.168.X.X/projet/ws/` |
 
 4. Cliquez sur **Run ▶️**
 
@@ -202,20 +197,8 @@ Body: nom=Dupont&prenom=Sara&ville=Casablanca&sexe=femme
 
 ## 👨‍💻 Auteur
 
-**[Votre Nom]**
-- GitHub : [@votre-username](https://github.com/votre-username)
-- Email : votre.email@example.com
+**ASSEKNOUR SANA**
+- GitHub : https://github.com/sana-sana25
+- Email : asseknour.sana21@gmail.com
 
----
 
-## 📄 Licence
-
-Ce projet est réalisé dans le cadre d'un TP académique.
-
----
-
-## 🙏 Remerciements
-
-- [Volley](https://github.com/google/volley) — Google
-- [Gson](https://github.com/google/gson) — Google
-- [XAMPP](https://www.apachefriends.org/) — Apache Friends
