@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 🔹 Couleurs principales -->
+    <color name="purple_200">#BB86FC</color>
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+
+    <!-- 🔹 Couleurs secondaires -->
+    <color name="teal_200">#03DAC5</color>
+    <color name="teal_700">#018786</color>
+
+    <!-- 🔹 Couleurs de base -->
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <!-- 🔹 Couleurs personnalisées pour ton TP -->
+    <color name="green_primary">#2E7D32</color>
+    <color name="green_light">#66BB6A</color>
+    <color name="gray_background">#F5F5F5</color>
+
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 🔹 Nom de l'application -->
+    <string name="app_name">ProjetWS</string>
+
+    <!-- 🔹 MainActivity -->
+    <string name="btn_add">Ajouter un etudiant</string>
+    <string name="btn_list">Afficher les etudiants</string>
+
+    <!-- 🔹 AddEtudiant -->
+    <string name="label_nom">Nom :</string>
+    <string name="label_prenom">Prenom :</string>
+    <string name="label_ville">Ville :</string>
+    <string name="label_sexe">Sexe :</string>
+    <string name="hint_nom">Entrer le nom</string>
+    <string name="hint_prenom">Entrer le prenom</string>
+    <string name="btn_ajouter">Ajouter</string>
+
+    <!-- 🔹 Sexe -->
+    <string name="homme">Homme</string>
+    <string name="femme">Femme</string>
+
+    <!-- 🔹 ListEtudiant -->
+    <string name="titre_liste">Liste des etudiants</string>
+
+    <!-- 🔹 Messages -->
+    <string name="msg_success">Etudiant ajoute avec succes</string>
+    <string name="msg_error">Erreur lors de lajout</string>
+    <string name="msg_load_error">Erreur chargement</string>
+    <string name="msg_delete">Supprime</string>
+    <string name="msg_delete_error">Erreur suppression</string>
+
+    <!-- 🔹 Dialog -->
+    <string name="dialog_title">Choisir une action</string>
+    <string name="dialog_delete_confirm">Supprimer cet etudiant ?</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+
+</resources>

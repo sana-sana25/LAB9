@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 🔹 Liste des villes -->
+    <string-array name="villes">
+        <item>Rabat</item>
+        <item>Casablanca</item>
+        <item>Marrakech</item>
+        <item>Tanger</item>
+        <item>Fès</item>
+        <item>Agadir</item>
+    </string-array>
+
+</resources>
