@@ -31,7 +31,7 @@ Ce projet est une application mobile Android qui permet de :
 
 ### Backend (PHP + MySQL)
 ```
-C:\xampp\htdocs\projetws\
+C:\xampp\htdocs\projet\
 ├── classes/
 │   └── Etudiant.php
 ├── connexion/
@@ -115,13 +115,13 @@ VALUES ('Lachgar', 'Mohamed', 'Rabat', 'homme'),
 ```
 
 ### Étape 3 — Web Service PHP
-Copiez le dossier `projetws` dans :
+Copiez le dossier `projet` dans :
 ```
-C:\xampp\htdocs\projetws\
+C:\xampp\htdocs\projet\
 ```
 
 Testez les services dans le navigateur :
-- **GET** → [http://localhost/projetws/ws/loadEtudiant.php](http://localhost/projetws/ws/loadEtudiant.php)
+- **GET** → [http://localhost/projet/ws/loadEtudiant.php](http://localhost/projet/ws/loadEtudiant.php)
 
 ### Étape 4 — Application Android
 
@@ -176,22 +176,12 @@ GET http://10.0.2.2/projetws/ws/loadEtudiant.php
 
 ### `createEtudiant.php` — POST
 ```
-POST http://10.0.2.2/projetws/ws/createEtudiant.php
+POST http://10.0.2.2/projet/ws/createEtudiant.php
 Body: nom=Dupont&prenom=Sara&ville=Casablanca&sexe=femme
 ```
 **Réponse :** liste complète mise à jour en JSON
 
----
 
-## 🐛 Problèmes Fréquents
-
-| Erreur | Cause | Solution |
-|---|---|---|
-| `Erreur réseau: null` | XAMPP non démarré | Démarrer Apache + MySQL |
-| `Erreur réseau: null` | Mauvaise URL | Utiliser `10.0.2.2` sur émulateur |
-| `Erreur réseau: null` | HTTP bloqué | Ajouter `usesCleartextTraffic="true"` dans Manifest |
-| `resource not found` | drawable manquant | Créer `circle_background.xml` dans `res/drawable/` |
-| Liste vide | Base de données vide | Insérer des données dans phpMyAdmin |
 
 ---
 
